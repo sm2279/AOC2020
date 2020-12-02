@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import time
-f = open("input.txt", "r")
+f = open("AOC2020/input_1.txt", "r")
 
 input_ = [int(i.rstrip()) for i in f]
 

@@ -20,12 +20,10 @@ def part_one():
         else:
             position += 3
         if row[position] == '#':
-            #row[position + 3] = 'X'
             row = replace_str_index(row, position, 'X')
             trees += 1
         else:
             squares += 1
-            #row[position + 3] = 'O'
             row = replace_str_index(row, position, 'O')
     print(trees)
 

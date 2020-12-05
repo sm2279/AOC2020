@@ -51,7 +51,6 @@ def part_two(right, down):
         ir += 1
     return trees
 
-
 # part two
 sc1 = part_two(1, 1)
 sc2 = part_two(3, 1)

@@ -9,6 +9,7 @@ f = open("AOC2020/input_3.txt", "r")
 
 input_ = [i.rstrip() for i in f]
 
+
 def part_one():
     trees = 0
     squares = 0
